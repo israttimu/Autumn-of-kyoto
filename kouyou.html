@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京都の紅葉｜京都の秋</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo2.png" alt="京都の秋 Logo">
+        </a>
+    </div>
+
+    <div class="language-switch">
+    <button class="language-btn" onclick="toggleLanguageMenu()">
+        🌐 Language ▾
+    </button>
+
+    <div class="language-menu" id="languageMenu">
+        <button onclick="changeLanguage('ja')">日本語</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+</div>
+    <nav>
+        <a href="index.html" data-i18n="home">ホーム</a>
+        <a href="kouyou.html" class="active" data-i18n="kouyou">紅葉</a>
+        <a href="food.html" data-i18n="food">食べ物</a>
+        <a href="event.html" data-i18n="event">お祭り</a>
+        <a href="place.html" data-i18n="place">場所</a>
+        <a href="gallary.html" data-i18n="gallary">ギャラリー</a>
+    </nav>
+</header>
+
+<main class="page-content">
+
+    <div class="page-title">
+        <h1 data-i18n="kouyouPageTitle">京都の紅葉</h1>
+        <p data-i18n="kouyouPageSubtitle">赤や黄色に染まる、美しい京都の秋。</p>
+    </div>
+
+    <section class="content-section">
+        <div class="section-text">
+            <h2 data-i18n="kouyouSection1Title">紅葉の見どころ</h2>
+
+            <p data-i18n="kouyouSection1Text1">
+                京都の秋は、紅葉がとても美しい季節です。
+                山やお寺、庭園など、さまざまな場所で
+                赤や黄色に染まった木々を見ることができます。
+            </p>
+
+            <p data-i18n="kouyouSection1Text2">
+                紅葉の季節には、多くの人が京都を訪れます。
+                美しい景色を眺めながら、ゆっくり散歩するのもおすすめです。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/R.jpg" alt="京都の赤い紅葉">
+            <figcaption data-i18n="kouyouCaption1">
+                秋の京都を彩る美しい紅葉
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="content-section reverse">
+        <div class="section-text">
+            <h2 data-i18n="kouyouSection2Title">お寺と紅葉</h2>
+
+            <p data-i18n="kouyouSection2Text1">
+                京都には、紅葉と歴史ある建物を一緒に楽しめる
+                お寺や庭園がたくさんあります。
+            </p>
+
+            <p data-i18n="kouyouSection2Text2">
+                清水寺や東福寺などは、秋の景色で知られる場所です。
+                昼間の紅葉はもちろん、特別な夜間ライトアップも魅力です。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/t.jpg" alt="紅葉に囲まれた京都のお寺">
+            <figcaption data-i18n="kouyouCaption2">
+                歴史あるお寺と秋の風景
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="content-section">
+        <div class="section-text">
+            <h2 data-i18n="kouyouSection3Title">秋の散歩を楽しもう</h2>
+
+            <p data-i18n="kouyouSection3Text1">
+                紅葉を楽しむときは、歩きやすい靴を用意して、
+                時間に余裕を持って出かけましょう。
+            </p>
+
+            <p data-i18n="kouyouSection3Text2">
+                自分のお気に入りの景色を見つけて、
+                京都の秋の思い出を作ってみませんか。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/5.jpg" alt="秋色に染まる京都の小道">
+            <figcaption data-i18n="kouyouCaption3">
+                秋色に染まる京都の小道
+            </figcaption>
+        </figure>
+    </section>
+
+</main>
+
+<footer>
+    <h3>京都の秋</h3>
+    <p data-i18n="footerText">美しい季節を、あなたに。</p>
+    <p class="copyright">© 2026 京都の秋</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

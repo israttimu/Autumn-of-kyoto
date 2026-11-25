@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京都のおすすめスポット｜京都の秋</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo2.png" alt="京都の秋 Logo">
+        </a>
+    </div>
+
+    <div class="language-switch">
+    <button class="language-btn" onclick="toggleLanguageMenu()">
+        🌐 Language ▾
+    </button>
+
+    <div class="language-menu" id="languageMenu">
+        <button onclick="changeLanguage('ja')">日本語</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+</div>
+    <nav>
+        <a href="index.html" data-i18n="home">ホーム</a>
+        <a href="kouyou.html" data-i18n="kouyou">紅葉</a>
+        <a href="food.html" data-i18n="food">食べ物</a>
+        <a href="event.html" data-i18n="event">お祭り</a>
+        <a href="place.html" class="active" data-i18n="place">場所</a>
+        <a href="gallary.html" data-i18n="gallary">ギャラリー</a>
+    </nav>
+</header>
+
+<main class="page-content">
+
+    <div class="page-title">
+        <h1 data-i18n="placePageTitle">秋に行きたい京都の場所</h1>
+        <p data-i18n="placePageSubtitle">美しい景色と歴史を楽しむ旅へ。</p>
+    </div>
+
+    <!-- 1. 清水寺 -->
+    <section class="content-section">
+        <div class="section-text">
+            <h2 data-i18n="place1Title">清水寺（きよみずでら）</h2>
+
+            <p data-i18n="place1Text1">
+                清水寺は、京都を代表する有名なお寺の一つです。
+                高い舞台からは、京都の町や周囲の自然を眺められます。
+            </p>
+
+            <p data-i18n="place1Text2">
+                秋には木々が赤や黄色に色づき、
+                歴史ある建物と美しい紅葉を一緒に楽しめます。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/place1.png" alt="秋の清水寺">
+            <figcaption data-i18n="place1Caption">紅葉の季節に訪れたい清水寺</figcaption>
+        </figure>
+
+        <div class="map-button-container">
+            <a href="https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera+Kyoto"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-button"
+               data-i18n="mapButton">
+                📍 地図を見る
+            </a>
+        </div>
+    </section>
+
+    <!-- 2. 東福寺 -->
+    <section class="content-section reverse">
+        <div class="section-text">
+            <h2 data-i18n="place2Title">東福寺（とうふくじ）</h2>
+
+            <p data-i18n="place2Text1">
+                東福寺は、京都でも特に有名な紅葉の名所です。
+                秋になると、境内の木々が赤やオレンジ色に染まります。
+            </p>
+
+            <p data-i18n="place2Text2">
+                通天橋から眺める紅葉の景色はとても美しく、
+                京都の秋を感じたい人におすすめの場所です。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/place2.png" alt="紅葉の季節の東福寺">
+            <figcaption data-i18n="place2Caption">色鮮やかな紅葉が広がる東福寺</figcaption>
+        </figure>
+
+        <div class="map-button-container">
+            <a href="https://www.google.com/maps/search/?api=1&query=Tofuku-ji+Kyoto"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-button"
+               data-i18n="mapButton">
+                📍 地図を見る
+            </a>
+        </div>
+    </section>
+
+    <!-- 3. 嵐山 -->
+    <section class="content-section">
+        <div class="section-text">
+            <h2 data-i18n="place3Title">嵐山（あらしやま）</h2>
+
+            <p data-i18n="place3Text1">
+                嵐山は、山や川などの自然を楽しめる人気の観光地です。
+                渡月橋からは、秋色に染まった山々を眺められます。
+            </p>
+
+            <p data-i18n="place3Text2">
+                川沿いを散歩したり、お店を訪れたりしながら、
+                ゆっくりと京都の秋を楽しめます。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/place3 .jpg" alt="秋の嵐山と渡月橋">
+            <figcaption data-i18n="place3Caption">秋色に包まれる嵐山</figcaption>
+        </figure>
+
+        <div class="map-button-container">
+            <a href="https://www.google.com/maps/search/?api=1&query=Arashiyama+Kyoto"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-button"
+               data-i18n="mapButton">
+                📍 地図を見る
+            </a>
+        </div>
+    </section>
+
+    <!-- 4. 永観堂 -->
+    <section class="content-section reverse">
+        <div class="section-text">
+            <h2 data-i18n="place4Title">永観堂（えいかんどう）</h2>
+
+            <p data-i18n="place4Text1">
+                永観堂は、「もみじの永観堂」として知られる、
+                京都を代表する紅葉の名所です。
+            </p>
+
+            <p data-i18n="place4Text2">
+                境内の庭園や池の周りでは、
+                赤や黄色に色づいた美しい景色を楽しめます。
+                秋の京都を訪れるなら、ぜひ見ておきたい場所です。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/place4.png" alt="秋の永観堂と紅葉">
+            <figcaption data-i18n="place4Caption">美しい紅葉に包まれる永観堂</figcaption>
+        </figure>
+
+        <div class="map-button-container">
+            <a href="https://www.google.com/maps/search/?api=1&query=Eikando+Kyoto"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-button"
+               data-i18n="mapButton">
+                📍 地図を見る
+            </a>
+        </div>
+    </section>
+
+    <!-- 5. 瑠璃光院 -->
+    <section class="content-section">
+        <div class="section-text">
+            <h2 data-i18n="place5Title">瑠璃光院（るりこういん）</h2>
+
+            <p data-i18n="place5Text1">
+                瑠璃光院は、美しい紅葉と庭園で知られる人気の場所です。
+                室内から眺める景色や、机に映る紅葉が有名です。
+            </p>
+
+            <p data-i18n="place5Text2">
+                静かな雰囲気の中で、京都ならではの
+                秋の美しさをゆっくり味わえます。
+                秋の特別公開については、事前に確認しましょう。
+            </p>
+        </div>
+
+        <figure class="section-image">
+            <img src="img/ruri5.jpg" alt="秋の瑠璃光院と紅葉の反射">
+            <figcaption data-i18n="place5Caption">幻想的な紅葉の景色を楽しめる瑠璃光院</figcaption>
+        </figure>
+
+        <div class="map-button-container">
+            <a href="https://www.google.com/maps/search/?api=1&query=Rurikoin+Kyoto"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-button"
+               data-i18n="mapButton">
+                📍 地図を見る
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <h3>京都の秋</h3>
+    <p data-i18n="footerText">美しい季節を、あなたに。</p>
+    <p class="copyright">© 2026 京都の秋</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

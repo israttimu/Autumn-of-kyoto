@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京都の秋</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo2.png" alt="京都の秋 Logo">
+        </a>
+    </div>
+
+    <div class="language-switch">
+    <button class="language-btn" onclick="toggleLanguageMenu()">
+        🌐 Language ▾
+    </button>
+
+    <div class="language-menu" id="languageMenu">
+        <button onclick="changeLanguage('ja')">日本語</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+</div>
+    <nav>
+        <a href="kouyou.html" data-i18n="kouyou">紅葉</a>
+        <a href="food.html" data-i18n="food">食べ物</a>
+        <a href="event.html" data-i18n="event">お祭り</a>
+        <a href="place.html" data-i18n="place">場所</a>
+        <a href="gallary.html" class="active" data-i18n="gallery">ギャラリー</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2 data-i18n="heroTitle">京都の秋</h2>
+
+        <h3 data-i18n="heroSubtitle">
+            ～ 美しい季節、心に残る旅 ～
+        </h3>
+
+        <p data-i18n="heroDescription">
+            紅葉、秋の食べ物、文化、そして美しい風景。
+            京都の秋には、たくさんの魅力があります。
+            一緒に京都の秋を楽しみましょう。
+        </p>
+
+        <a href="kouyou.html" class="button" data-i18n="heroButton">
+            秋の魅力を見る →
+        </a>
+    </div>
+</section>
+
+<main>
+    <section class="contents">
+
+        <h2 data-i18n="sectionTitle">秋の楽しみ方</h2>
+
+        <p class="description" data-i18n="sectionDescription">
+            京都の秋をもっと楽しむためのおすすめコンテンツ
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🍁</div>
+                <h3 data-i18n="card1Title">紅葉</h3>
+                <p data-i18n="card1Text">赤や黄色に染まる美しい秋の風景。</p>
+                <a href="kouyou.html" data-i18n="details">詳しく見る →</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🍠</div>
+                <h3 data-i18n="card2Title">食べ物</h3>
+                <p data-i18n="card2Text">薩摩芋、栗、柿など秋の美味しい食べ物。</p>
+                <a href="food.html" data-i18n="details">詳しく見る →</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏮</div>
+                <h3 data-i18n="card3Title">お祭り</h3>
+                <p data-i18n="card3Text">京都の伝統を感じる秋のお祭り。</p>
+                <a href="event.html" data-i18n="details">詳しく見る →</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">⛩️</div>
+                <h3 data-i18n="card4Title">場所</h3>
+                <p data-i18n="card4Text">秋に行きたいおすすめスポット。</p>
+                <a href="place.html" data-i18n="details">詳しく見る →</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">📷</div>
+                <h3 data-i18n="card5Title">ギャラリー</h3>
+                <p data-i18n="card5Text">京都の秋の美しい写真を紹介します。</p>
+                <a href="gallary.html" data-i18n="viewPhotos">写真を見る →</a>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <h3>京都の秋</h3>
+    <p data-i18n="footerText">美しい季節を、あなたに。</p>
+    <p class="copyright">© 2026 京都の秋</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

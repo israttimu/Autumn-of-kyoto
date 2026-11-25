@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京都の秋ギャラリー｜京都の秋</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo2.png" alt="京都の秋 Logo">
+        </a>
+    </div>
+
+    <div class="language-switch">
+    <button class="language-btn" onclick="toggleLanguageMenu()">
+        🌐 Language ▾
+    </button>
+
+    <div class="language-menu" id="languageMenu">
+        <button onclick="changeLanguage('ja')">日本語</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+</div>
+
+    <nav>
+        <a href="index.html" data-i18n="home">ホーム</a>
+        <a href="kouyou.html" data-i18n="kouyou">紅葉</a>
+        <a href="food.html" data-i18n="food">食べ物</a>
+        <a href="event.html" data-i18n="event">お祭り</a>
+        <a href="place.html" data-i18n="place">場所</a>
+        <a href="gallary.html" class="active" data-i18n="gallery">ギャラリー</a>
+    </nav>
+</header>
+
+<main class="page-content">
+
+    <div class="page-title">
+        <h1 data-i18n="galleryPageTitle">京都の秋ギャラリー</h1>
+        <p data-i18n="galleryPageSubtitle">写真で楽しむ、秋の京都の美しい風景。</p>
+    </div>
+
+    <section class="photo-gallery">
+
+        <!-- Photo 1 -->
+        <figure class="gallery-item">
+            <img src="img/leavesssss.png"
+                 alt="京都の赤い紅葉"
+                 loading="lazy">
+            <p data-i18n="galleryCaption1">鮮やかに色づく京都の紅葉</p>
+        </figure>
+
+        <!-- Photo 2 -->
+        <figure class="gallery-item">
+            <img src="img/gallery1_temple.jpg"
+                 alt="京都のお寺と秋の風景"
+                 loading="lazy">
+            <p data-i18n="galleryCaption2">静寂に包まれた紅葉の参道</p>
+        </figure>
+
+        <!-- Photo 3 -->
+        <figure class="gallery-item">
+            <img src="img/kyoto_autumn_road.jpg"
+                 alt="秋の京都の石畳の小道"
+                 loading="lazy">
+            <p data-i18n="galleryCaption3">紅葉に彩られた石畳の小道</p>
+        </figure>
+
+        <!-- Photo 4 -->
+        <figure class="gallery-item">
+            <img src="img/gallery2_kimono_woman.jpg"
+                 alt="着物姿で京都を歩く女性"
+                 loading="lazy">
+            <p data-i18n="galleryCaption4">着物姿で楽しむ京都の秋</p>
+        </figure>
+
+        <!-- Photo 5 -->
+        <figure class="gallery-item">
+            <img src="img/gallery5_temple_steps.jpg"
+                 alt="紅葉に包まれた寺院の石段"
+                 loading="lazy">
+            <p data-i18n="galleryCaption5">紅葉に包まれた寺院の石段</p>
+        </figure>
+
+        <!-- Photo 6 -->
+        <figure class="gallery-item">
+            <img src="img/kyoto_autumn_stone_basin.jpg"
+                 alt="秋の紅葉が映る京都の水辺"
+                 loading="lazy">
+            <p data-i18n="galleryCaption6">水面に映る秋の彩り</p>
+        </figure>
+
+    </section>
+
+</main>
+
+<footer>
+    <h3>京都の秋</h3>
+    <p data-i18n="footerText">美しい季節を、あなたに。</p>
+    <p class="copyright">© 2026 京都の秋</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
